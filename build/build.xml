@@ -99,7 +99,7 @@
 
   <property name="portable" value="false" />
 
-  <property name="ARDUINO-BUILDER-VERSION" value="1.5.4" />
+  <property name="ARDUINO-BUILDER-VERSION" value="1.5.6" />
   <property name="LIBLISTSERIAL-VERSION" value="1.4.2-2" />
   <property name="AVRGCC-VERSION" value="7.3.0-atmel3.6.1-arduino7" />
   <property name="AVRDUDE-VERSION" value="6.3.0-arduino17" />
@@ -224,8 +224,8 @@
 
     <!-- Add WiFi101 updater tool -->
     <antcall target="unzip">
-      <param name="archive_file" value="shared/WiFi101-Updater-ArduinoIDE-Plugin-0.10.12.zip" />
-      <param name="archive_url" value="https://github.com/arduino-libraries/WiFi101-FirmwareUpdater-Plugin/releases/download/v0.10.12/WiFi101-Updater-ArduinoIDE-Plugin-0.10.12.zip" />
+      <param name="archive_file" value="shared/WiFi101-Updater-ArduinoIDE-Plugin-0.10.13.zip" />
+      <param name="archive_url" value="https://github.com/arduino-libraries/WiFi101-FirmwareUpdater-Plugin/releases/download/v0.10.13/WiFi101-Updater-ArduinoIDE-Plugin-0.10.13.zip" />
       <param name="final_folder" value="${target.path}/tools/WiFi101" />
       <param name="dest_folder" value="${target.path}/tools/" />
     </antcall>
